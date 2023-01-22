@@ -1,0 +1,4 @@
+# Youtube_parser
+This code utilizes the Google YouTube API to search for videos based on certain parameters such as location and order. The code then extracts certain information from the video data such as the title, channel title, and video URL, and stores this information in a list. The list is then sorted by the time the videos were published, and the sorted data is written to a json file called "youtube.json". Additionally, the code includes error handling for HTTP errors and errors that occur while writing to the json file.
+This script is useful for anyone who wants to collect data from YouTube in a specific location and order and export it to a json file for further analysis or use.
+Please note that you need to replace the API key with your own API key from Google developer console in order to run this script.
